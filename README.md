@@ -1,14 +1,20 @@
 # Persian-Relative-Date
 Get string representation of time in Persian (Farsi - فارسی)
 
+Based on [relative-date](https://www.npmjs.com/package/relative-date)
+
 ##Usage
 On browsers:
 
 ```js
-<script src="relative-date.js"></script>
+<script src="persian-relative-date.js"></script>
 <script>
-  persianRelativeDate(new Date());      // output: 'به تازگی'
-  persianRelativeDate(1299627946000);   // output: '12 دقیقه پیش'
-  persianRelativeDate(0);               // output: '41 سال پیش'
+  var a = persianRelativeDate(new Date());
+  var b = persianRelativeDate(1299627946000);
+  var c = persianRelativeDate(0);
+  
+  console.log(a);   // output: 'به تازگی'
+  console.log(b);   // output: '12 دقیقه پیش'
+  console.log(c);   // output: '41 سال پیش'
 </script>
 ```
