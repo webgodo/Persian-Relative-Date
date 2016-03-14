@@ -2,7 +2,6 @@
 Get string representation of time in Persian (Farsi - فارسی)
 
 ##Usage
-=====
 On browsers:
 
 ```js
